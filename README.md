@@ -68,18 +68,14 @@ Images used in screenshot.png were picked from [pixabay](https://www.pixabay.com
 
 # Resource License
 
-#### Fonts
-
-WpF Flaty integrated 2 google fonts, one is Open-Sans & second is Raleway. See below:
+#### Fonts:
 
 * [Open Sans] (https://www.google.com/fonts#UsePlace:Use/Collection:Open+Sans) - [License] (http://www.apache.org/licenses/LICENSE-2.0.html)
 
 
 * [Raleway] (https://www.google.com/fonts#UsePlace:Use/Collection:Raleway) - [License] (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
-
-[Bootstrap] (http://getbootstrap.com/)
-
-[WOW Animation] (http://mynameismatthieu.com/WOW/)
-
-[FontAwesome Icons] (http://fortawesome.github.io/Font-Awesome/)
+#### Others:
+* [Bootstrap] (http://getbootstrap.com/)
+* [WOW Animation] (http://mynameismatthieu.com/WOW/)
+* [FontAwesome Icons] (http://fortawesome.github.io/Font-Awesome/)
