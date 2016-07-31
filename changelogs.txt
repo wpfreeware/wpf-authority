@@ -1,0 +1,106 @@
+1.3----
+disabled author bio in mobile devices.
+Fixed footer social icons issue.
+Fixed logo & related posts images for small devices.
+Fixed deprecated function.
+Fixed css bugs.
+Fixed responsive issues.
+Fixed left sidebar issue in mobile devices.
+POT file re-generated.
+Fixed custom header image size
+
+
+1.2.9----
+Removed favicon upload option from customizer
+Added re-created pot file.
+Removed TGM plugin recommendation
+
+1.2.8----
+Removed some unnecessary comments from functions.php
+
+1.2.7----
+Escaped properly images alt tag values
+Added Read-More button only when post excerpt selected.
+
+1.2.6----
+Removed fixed width from logo img
+Added min-height to the header area
+
+1.2.5----
+Added option for displaying Excerpt or Full content
+
+1.2.2----
+Fixed logo css issue.
+
+1.2.1----
+Added GPL compatible screenshot
+Fixed image gallery css issues
+Added default values in customizer settings
+Added default body background color
+
+1.2----
+Corrected WordPress spelling
+Removed static texts "add widgets here"
+Added left/right sidebar option in customizer
+Prefixed image names
+Removed unnecessary widgets area 
+
+
+1.1.3----
+Fixed custom header bugs.
+Fixed IE9 issues with html5shiv & respond.js
+
+1.1.2----
+
+Removed hand coded html5 shim & respond.js from header.php
+Added Html5 Shim & Respond.js for supporting css media queries & html5 elements in functions.php
+
+1.1.1----
+
+--- Removed default menu call from header.php
+
+1.1.0---
+
+-- Removed wp_enqueue_script('jquery’)
+-- Removed fallback menu "wpf_authority_default_menu"
+-- Removed wrapper functions from "register_nav_menu"
+
+1.0.5---
+
+-- Added support for custom-header feature
+-- Removed header image uploader from theme option
+
+1.0.4---
+
+-- Changed menu to theme_location in wp_nav_menu.
+-- Added non-minified versions for scripts.
+-- Remove microformats tag.
+-- Banner title & footer texts properly escaped.
+-- Prefixed all theme options.
+-- Removed additional wrapped function for add_editor_style.
+-- Prefixed functions with theme name for push_bottom_header_area, post_link_attributes_next, post_link_attributes_previous.
+-- Removed deregistering jQuery script & google jquery library.
+-- registered scripts & styles through enqueue function.
+-- Fixed the protocol issues for Google fonts.
+
+
+1.0.3---
+
+-- Fixed custom-background body default color issue
+-- Changed footer credit links visibility from all pages to only home/front page
+
+1.0.2---
+
+-- Added jQuery license in license.txt
+-- Added title-tag support & remove hard coded title tag from header.php
+-- Added/Remove tags in style.css header
+
+1.0.1----
+
+-- Added license.txt
+-- Mentioned Menu Restriction (1 level dropdown) in readme.txt
+-- Fixed Editor Style bugs
+
+1.0---
+
+-- Initial Release
