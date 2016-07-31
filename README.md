@@ -1,18 +1,25 @@
-#License
+# License
 
 Contributors: WpFreeware
+
 Contributors URI: http://www.wpfreeware.com/wpf-authority-free-Responsive-wordpress-blogging-theme
+
 Tags: full-width-template, sticky-post, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, gray, light, microformats, responsive-layout, right-sidebar, rtl-language-support, translation-ready, two-columns, white
+
 Requires at least: 4.1
+
 Tested up to: 4.4
+
 License: GPLv3 or later
+
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-#Description
+
+# Description
 
 This is a free WordPress theme from wpfreeware.com. If you are looking for a beautifully designed clean & professional looking wordpress theme then WpF Authority is for you.
 
-##Key Features
+###### Key Features
 * Responsive Layout
 * Custom Colors
 * Custom Header
@@ -52,8 +59,8 @@ You can change easily all these settings from live customizer theme option panel
 
 #Screenshot Image
 
-The screenshot.png created by author & licensed it to GPL v3 or later (http://www.gnu.org/licenses/gpl-3.0.html).
-Images used in screenshot.png were picked from https://www.pixabay.com , licensed under CC0 ( https://creativecommons.org/choose/zero/ )
+The screenshot.png created by author & licensed it to [GPL v3 or later] (http://www.gnu.org/licenses/gpl-3.0.html).
+Images used in screenshot.png were picked from [pixabay](https://www.pixabay.com) , [licensed under CC0] ( https://creativecommons.org/choose/zero/ )
 
 #Images sources: 
 * https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
