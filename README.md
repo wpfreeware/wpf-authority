@@ -39,7 +39,7 @@ This is a free WordPress theme from wpfreeware.com. If you are looking for a bea
 #Installation
 
 1. In your admin panel, go to Appearance -> Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's ZIP file. Click Install Now.
+2. Click Upload and Choose File, then select the theme zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
 #Frequently Asked Questions
@@ -62,6 +62,24 @@ You can change easily all these settings from live customizer theme option panel
 The screenshot.png created by author & licensed it to [GPL v3 or later] (http://www.gnu.org/licenses/gpl-3.0.html).
 Images used in screenshot.png were picked from [pixabay](https://www.pixabay.com) , [licensed under CC0] ( https://creativecommons.org/choose/zero/ )
 
-#Images sources: 
+#### sources: 
 * https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
 * https://pixabay.com/en/monks-path-sunset-landscape-1077839/
+
+# Resource License
+
+#### Fonts
+
+WpF Flaty integrated 2 google fonts, one is Open-Sans & second is Raleway. See below:
+
+* [Open Sans] (https://www.google.com/fonts#UsePlace:Use/Collection:Open+Sans) - [License] (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+
+* [Raleway] (https://www.google.com/fonts#UsePlace:Use/Collection:Raleway) - [License] (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
+
+
+[Bootstrap] (http://getbootstrap.com/)
+
+[WOW Animation] (http://mynameismatthieu.com/WOW/)
+
+[FontAwesome Icons] (http://fortawesome.github.io/Font-Awesome/)
