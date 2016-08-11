@@ -979,9 +979,7 @@ transition: all 0.5s;
   width: 100%;
 }
 .single_sidebar select,.single_footer_top select {
-  background-color: #798992;
   border: medium none;
-  color: #fff;
   height: 50px;
   padding: 10px;
   width: 100%;
