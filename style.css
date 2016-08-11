@@ -628,21 +628,9 @@ transition: all 0.5s;
   font-size: 18px;
 }
 #imgbanner {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: inline;
-  float: left;
-  height: 350px;
-  margin-top: 77px;
-  padding: 118px 0;
-  text-align: center;
-  width: 100%;
-}
-#imgbanner h2{
-  color: #fff;
-  text-align: center;
-  font-size: 72px;
-  font-weight: bold;
+	display: inline;
+	float: left;
+	margin-top: 74px;
 }
 
 #blogArchive{
@@ -1118,9 +1106,7 @@ transition: all 0.5s;
   .service_nav li{width: 31%;}
   .service_nav li > h2 {font-size: 16px;}
   .single_footer_top > h2 {font-size: 22px;}
-  .form_container {padding: 20px 100px;}
-  #imgbanner {margin-top: 67px;padding: 100px 0;width: 100%;}
-  #imgbanner h2 {line-height: 72px;font-size: 55px;}  
+  .form_container {padding: 20px 100px;} 
   .archiveblog_right > h2 {font-size: 20px;}
   #banner {margin-top: 67px;}
   .slider_caption > h2 {font-size: 37px;}
@@ -1142,8 +1128,7 @@ transition: all 0.5s;
    .service_nav li {width: 100%;min-height: auto;margin-bottom: 15px;}
    .form_container {padding: 20px 50px;}
    .client_title > h2 {line-height: 35px;}
-   #imgbanner h2 {font-size: 40px;line-height: 40px;}
-   #imgbanner{height: 250px;margin-top: 61px;}
+   #imgbanner{margin-top: 60px;}
    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     border-radius: 0px;  
   }
@@ -1159,7 +1144,7 @@ transition: all 0.5s;
   .archiveblog_right {float: left;margin-left: 10px;width: 70%;}
   .post_navigation {margin-bottom: 30px;}
   #sliderSection {margin-top: 61px;}
-  #banner {margin-top: 61px;}
+  #banner {margin-top: 60px;}
   .single_featured_blog {margin-bottom: 30px;}
   .social_nav li a {margin-right: 8px;}
   .pfeatured_nav li {font-size: 15px;padding: 10px 0;}
@@ -1183,8 +1168,6 @@ transition: all 0.5s;
   .service_title > h2 {font-size: 30px;padding: 0px;}
   .service_title > p {font-size: 18px;}
   .form_container {padding: 20px 0px;}
-  #imgbanner h2 {font-size: 30px;line-height: 35px;}
-  #imgbanner {height: 200px;padding: 70px 0px;}
   .contact_right{padding-left: 0px;}
   .previous_nav{padding: 10px;}
   .next_nav{padding: 10px;}
@@ -1203,7 +1186,6 @@ transition: all 0.5s;
 @media(max-width:360px ){
  .client_title > h2 {font-size: 20px;}
  .client_img {left: 35%;}
- #imgbanner h2 {font-size: 22px;line-height: 35px;}
  .support_btn {margin-top: 30px;}
  .expand_icon {height: 36px;position: absolute;right: 0;top: 1px;}
  .imgedit_heading .panel-title{ position: relative;}

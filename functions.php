@@ -83,11 +83,10 @@ function wpf_authority_setup() {
 	$header_img_args = array(
 		'width'                  => 1900,
 		'height'                 => 350,
-		'flex-height'            => false,
+		'flex-height'            => true,
 		'flex-width'             => true,
 		'uploads'                => true,
 		'random-default'         => true,
-		'header-text'            => true,
 	);
 	add_theme_support( 'custom-header', $header_img_args );		
 	

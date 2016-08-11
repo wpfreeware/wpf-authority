@@ -45,10 +45,8 @@
 	  
 	  
       <div id="navbar" class="navbar-collapse collapse navbar_area"> 
-		
-		
+	      		
 			<?php /* Primary navigation */
-			
 			
 					wp_nav_menu( array(
 					  'theme_location' => 'primary-menu',
@@ -58,10 +56,7 @@
 					  'menu_class' => 'nav navbar-nav navbar-right custom_nav',
 					  'walker' => new wp_bootstrap_navwalker()
 					  ) //Process nav menu using our custom nav walker
-					);			
-				
-				
-								
+					);								
 			?>	
 			
 		

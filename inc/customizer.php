@@ -48,31 +48,6 @@ $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'wpf_
 ) ) );
 
 
-///////////////////////////
-// Banner section 
-////////////////////////
-
-$wp_customize->add_section( 'wpf_authority_banner_section' , array(
-    'title'      => __( 'Banner Title', 'wpf-authority' ),
-	'panel' => 'wpf_authority_theme_option',
-) );
-
-
-// Banner Title
-
-$wp_customize->add_setting( 'wpf_authority_banner_title' , array(
-	'default'     => '',
-	'transport' => 'postMessage',
-	'sanitize_callback' => 'sanitize_text_field',
-) );
-
-$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'wpf_authority_banner_title', array(
-	'label'        => __( 'Put Banner Title.', 'wpf-authority' ),
-	'section'    => 'wpf_authority_banner_section',
-	'settings'   => 'wpf_authority_banner_title',
-) ) );
-
-
 /////////////////////////////////
 // Full content or excerpt
 //////////////////////////////////
@@ -297,6 +272,7 @@ function wpf_authority_sanitize_choices( $input, $setting ) {
 function wpf_authority_customize_css()
 {	
 	
+/*
 	if( get_header_image() ):
     ?>
          <style type="text/css">
@@ -304,6 +280,7 @@ function wpf_authority_customize_css()
          </style>
     <?php
 	endif;
+*/
 	
 	//theme color scheme
 	$theme_color = '<style type="text/css">
