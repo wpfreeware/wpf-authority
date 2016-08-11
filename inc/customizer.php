@@ -43,6 +43,7 @@ $wp_customize->add_setting( 'wpf_authority_logo_uploader' , array(
 
 $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'wpf_authority_logo_uploader', array(
 	'label'        => __( 'Upload Your Logo. Best size: Height: 66px', 'wpf-authority' ),
+	'description'   => __( 'This option is deprecated Since WP 4.5. WpF Authority includes native logo support. Please upload your logo from Site Identity section', 'wpf-authority' ),
 	'section'    => 'wpf_authority_logo_favicon_section',
 	'settings'   => 'wpf_authority_logo_uploader',
 ) ) );
