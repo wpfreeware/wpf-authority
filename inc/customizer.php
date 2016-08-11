@@ -408,7 +408,6 @@ function wpf_authority_customize_css()
   background-color: '.esc_html( get_theme_mod('wpf_authority_theme_color', '#ca3643') ).';
 }
 .single_sidebar > h2 {
-  border-bottom: 2px dashed '.esc_html( get_theme_mod('wpf_authority_theme_color', '#ca3643') ).';
   color: '.esc_html( get_theme_mod('wpf_authority_theme_color', '#ca3643') ).';
 }
 .single_sidebar ul li a:hover{
