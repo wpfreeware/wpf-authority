@@ -1063,14 +1063,16 @@ transition: all 0.5s;
     text-align: center;}
 .comment_list_container .reply{ float: right;}
 .comment_list_container .comment_text{margin-left: 10%;}
-.author_lebel{  display: block;
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
-  font-size: 12px;
-  font-weight: bold;}
+.author_lebel{  
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 48px;
+    font-size: 12px;
+    font-weight: bold;
+  }
 .comment_date{}
-.author-comment{border: 2px solid #ccc;}
+.author-comment{}
 .no-comments{font-weight: bold;margin: 15px 0;text-align: center;}
 #respond{margin-top:40px;}
 #respond .comment-form-author input,#respond .comment-form-email input,#respond .comment-form-url input{padding: 10px;width: 60%;border: 1px solid #ddd;}
