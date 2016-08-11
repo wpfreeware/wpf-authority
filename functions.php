@@ -68,7 +68,15 @@ function wpf_authority_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 	
-	
+	/*
+	 * Enable custom logo
+	 */		
+	add_theme_support( 'custom-logo', array(
+		'height'      => 66,
+		'flex-height' => false,
+		'flex-width'  => true,
+		'class'		  => 'navbar-brand',
+	) );	
 	
 	/*
 	 * Custom background image support
