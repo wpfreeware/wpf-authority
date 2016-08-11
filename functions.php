@@ -75,7 +75,6 @@ function wpf_authority_setup() {
 		'height'      => 66,
 		'flex-height' => false,
 		'flex-width'  => true,
-		'class'		  => 'navbar-brand',
 	) );	
 	
 	/*
