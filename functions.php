@@ -255,7 +255,3 @@ function wpf_authority_post_link_attributes_previous($output) {
 /////////////////////////////////////
 
 include_once( 'inc/wp_list_comments.php' );
-
-
-
-?>

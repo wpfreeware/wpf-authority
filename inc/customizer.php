@@ -1,3 +1,10 @@
+<?php
+/*
+ *	This file contains theme customizer settings.
+ *	
+ *	@since wpf authority 1.0
+ */
+?>
 <?php 
 
 function wpf_authority_customizer_register( $wp_customize ) {
@@ -508,7 +515,3 @@ function wpf_authority_customizer_live_preview() {
 
 } 
 add_action( 'customize_preview_init', 'wpf_authority_customizer_live_preview' );
-
-
-
-?>
