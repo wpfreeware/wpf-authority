@@ -163,9 +163,10 @@ $wp_customize->add_setting( 'wpf_authority_footer_text' , array(
 
 
 $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'wpf_authority_footer_text', array(
-	'label'        => __( 'Put your footer text here.', 'wpf-authority' ),
-	'section'    => 'wpf_authority_footer_section',
-	'settings'   => 'wpf_authority_footer_text',
+	'label'        	=> __( 'Put your footer text here.', 'wpf-authority' ),
+	'description'   => __( 'You have to put footer text in order to display this section including social links.', 'wpf-authority' ),
+	'section'    	=> 'wpf_authority_footer_section',
+	'settings'   	=> 'wpf_authority_footer_text',
 ) ) );
 
 
