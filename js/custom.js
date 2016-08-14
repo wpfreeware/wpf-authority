@@ -2,14 +2,7 @@
 	* Theme Name: WpF Authority
 	* Theme Scripts
 	* Author: WpFreeware
-	* Author URI: http://wpfreeware.com/
-
-	Custom JS
-	
-	1. WOW animation	
-	2. Pushdown content area
-	3. Hover dropdown menu
-	
+	* Author URI: http://wpfreeware.com
 **/
 
 /* ----------------------------------------------------------- */
