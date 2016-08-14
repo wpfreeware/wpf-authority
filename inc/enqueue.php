@@ -1,4 +1,11 @@
 <?php
+/*
+ *	This file contains theme css & js files
+ *	
+ *	@since wpf authority 1.0
+ */
+?>
+<?php
 
 
 function wpf_authority_scripts() {
@@ -45,13 +52,4 @@ function wpf_authority_scripts() {
     wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css','all' );		
 
 }
-
-
-if (!is_admin()) add_action("wp_enqueue_scripts", "wpf_authority_scripts", 11);
-
-
-
-
-
-
-?>
+add_action( 'wp_enqueue_scripts', 'wpf_authority_scripts' );

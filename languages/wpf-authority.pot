@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wpf-authority\n"
-"POT-Creation-Date: 2016-01-03 19:19+0600\n"
-"PO-Revision-Date: 2016-01-03 19:19+0600\n"
+"POT-Creation-Date: 2016-08-11 21:39+0600\n"
+"PO-Revision-Date: 2016-08-11 21:40+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:24
@@ -60,157 +60,161 @@ msgstr ""
 msgid "Sorry! Nothing Found"
 msgstr ""
 
-#: comments.php:18
+#: comments.php:20
 msgid "No Comments"
 msgstr ""
 
-#: comments.php:18 post-excerpt.php:18 post-meta.php:3
+#: comments.php:20 post-excerpt.php:18 post-meta.php:3
 msgid "1 Comment"
 msgstr ""
 
-#: comments.php:49
+#: comments.php:52
 msgid "Comments are closed"
 msgstr ""
 
-#: functions.php:139
+#: functions.php:145
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:159
+#: functions.php:165
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:161
+#: functions.php:167
 msgid "Add your desire widgets here."
 msgstr ""
 
-#: functions.php:169
+#: functions.php:175
 msgid "Page Sidebar"
 msgstr ""
 
-#: functions.php:171
+#: functions.php:177
 msgid "Add widgets here to appear in your page sidebar"
 msgstr ""
 
-#: functions.php:179
+#: functions.php:185
 msgid "Footer Widgets"
 msgstr ""
 
-#: functions.php:181
+#: functions.php:187
 msgid "Add widgets here to appear in your footer area"
 msgstr ""
 
-#: header.php:25
+#: header.php:26
 msgid "Toggle navigation"
 msgstr ""
 
-#: inc/customizer.php:13
+#: inc/customizer.php:20
 msgid "Theme Options"
 msgstr ""
 
-#: inc/customizer.php:14
+#: inc/customizer.php:21
 msgid ""
 "Change theme settings from below like logo,banner,colors, social, footer "
 "texts etc"
 msgstr ""
 
-#: inc/customizer.php:25
+#: inc/customizer.php:32
 msgid "Logo"
 msgstr ""
 
-#: inc/customizer.php:38
+#: inc/customizer.php:45
 msgid "Upload Your Logo. Best size: Height: 66px"
 msgstr ""
 
-#: inc/customizer.php:49
-msgid "Banner Title"
+#: inc/customizer.php:46
+msgid ""
+"This option is deprecated Since WP 4.5. WpF Authority includes native logo "
+"support. Please upload your logo from Site Identity section"
 msgstr ""
 
-#: inc/customizer.php:63
-msgid "Put Banner Title."
-msgstr ""
-
-#: inc/customizer.php:76
+#: inc/customizer.php:59
 msgid "Excerpt or Full content"
 msgstr ""
 
-#: inc/customizer.php:93
+#: inc/customizer.php:76
 msgid "Display excerpt or full content."
 msgstr ""
 
-#: inc/customizer.php:97
+#: inc/customizer.php:80
 msgid "Excerpt"
 msgstr ""
 
-#: inc/customizer.php:98
+#: inc/customizer.php:81
 msgid "Full content"
 msgstr ""
 
-#: inc/customizer.php:111
+#: inc/customizer.php:94
 msgid "Choose Sidebar"
 msgstr ""
 
-#: inc/customizer.php:128
+#: inc/customizer.php:111
 msgid "Select your sidebar"
 msgstr ""
 
-#: inc/customizer.php:132
+#: inc/customizer.php:115
 msgid "Left"
 msgstr ""
 
-#: inc/customizer.php:133
+#: inc/customizer.php:116
 msgid "Right"
 msgstr ""
 
-#: inc/customizer.php:144
+#: inc/customizer.php:127
 msgid "Theme Color"
 msgstr ""
 
-#: inc/customizer.php:156
+#: inc/customizer.php:139
 msgid "Select Theme Color"
 msgstr ""
 
-#: inc/customizer.php:169
+#: inc/customizer.php:152
 msgid "Footer Setting"
 msgstr ""
 
-#: inc/customizer.php:184
+#: inc/customizer.php:167
 msgid "Put your footer text here."
 msgstr ""
 
-#: inc/customizer.php:202
+#: inc/customizer.php:168
+msgid ""
+"You have to put footer text in order to display this section including "
+"social links."
+msgstr ""
+
+#: inc/customizer.php:186
 msgid "Facebook url"
 msgstr ""
 
-#: inc/customizer.php:215
+#: inc/customizer.php:199
 msgid "Twitter url"
 msgstr ""
 
-#: inc/customizer.php:229
+#: inc/customizer.php:213
 msgid "Google+ url"
 msgstr ""
 
-#: inc/customizer.php:243
+#: inc/customizer.php:227
 msgid "Youtube url"
 msgstr ""
 
-#: inc/customizer.php:257
+#: inc/customizer.php:241
 msgid "LinkedIn url"
 msgstr ""
 
-#: inc/wp_list_comments.php:19
+#: inc/wp_list_comments.php:23
 msgid "<span class=\"author_lebel\">Author</span>"
 msgstr ""
 
-#: inc/wp_list_comments.php:23
+#: inc/wp_list_comments.php:27
 msgid " on "
 msgstr ""
 
-#: inc/wp_list_comments.php:24
+#: inc/wp_list_comments.php:28
 msgid "(Edit)"
 msgstr ""
 
-#: inc/wp_list_comments.php:29
+#: inc/wp_list_comments.php:33
 msgid "Your comment is awaiting moderation"
 msgstr ""
 

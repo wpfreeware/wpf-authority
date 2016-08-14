@@ -68,7 +68,14 @@ function wpf_authority_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 	
-	
+	/*
+	 * Enable custom logo
+	 */		
+	add_theme_support( 'custom-logo', array(
+		'height'      => 66,
+		'flex-height' => false,
+		'flex-width'  => true,
+	) );	
 	
 	/*
 	 * Custom background image support
@@ -83,11 +90,10 @@ function wpf_authority_setup() {
 	$header_img_args = array(
 		'width'                  => 1900,
 		'height'                 => 350,
-		'flex-height'            => false,
+		'flex-height'            => true,
 		'flex-width'             => true,
 		'uploads'                => true,
 		'random-default'         => true,
-		'header-text'            => true,
 	);
 	add_theme_support( 'custom-header', $header_img_args );		
 	
@@ -255,7 +261,3 @@ function wpf_authority_post_link_attributes_previous($output) {
 /////////////////////////////////////
 
 include_once( 'inc/wp_list_comments.php' );
-
-
-
-?>

@@ -1,5 +1,9 @@
 <?php
-
+/*
+ *	This file contains comment template
+ *
+ *	@since wpf authority 1.0
+ */
 /*-----------------------------------------------------------------------------------*/
 # Custom Comments Template
 /*-----------------------------------------------------------------------------------*/
@@ -39,6 +43,3 @@ function wpf_authority_custom_comments($comment, $args, $depth) {
     </li>
 <?php
 }
-
-
-?>

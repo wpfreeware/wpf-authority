@@ -250,7 +250,7 @@ img{
   font-size: 25px;
   font-family: "Raleway",sans-serif;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 8px 15px;
 
 }
 
@@ -268,17 +268,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .navbar-default .navbar-nav > li{
   position: relative;
-}
-.navbar-default li.active:after {
-  bottom: -42px;
-  color: #fff;
-  content: "";
-  font-family: FontAwesome;
-  font-size: 35px;
-  left: 49%;
-  margin-left: -8px;
-  position: absolute;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.05);
 }
 .navbar-default .navbar-nav > li > a {
   color: #5e5e5e;
@@ -628,21 +617,9 @@ transition: all 0.5s;
   font-size: 18px;
 }
 #imgbanner {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: inline;
-  float: left;
-  height: 350px;
-  margin-top: 77px;
-  padding: 118px 0;
-  text-align: center;
-  width: 100%;
-}
-#imgbanner h2{
-  color: #fff;
-  text-align: center;
-  font-size: 72px;
-  font-weight: bold;
+	display: inline;
+	float: left;
+	margin-top: 74px;
 }
 
 #blogArchive{
@@ -979,9 +956,7 @@ transition: all 0.5s;
   width: 100%;
 }
 .single_sidebar select,.single_footer_top select {
-  background-color: #798992;
   border: medium none;
-  color: #fff;
   height: 50px;
   padding: 10px;
   width: 100%;
@@ -1008,7 +983,12 @@ transition: all 0.5s;
 }
 .sticky{}
 .bypostauthor{}
-.screen-reader-text{display:none;}  
+.screen-reader-text {
+	width: 0px !important;
+	height: 0px !important;
+	text-indent: -9999px;
+	display: block;
+} 
 .archiveblog_right embed, .archiveblog_right iframe{max-width:100%;}
 .clearfix{clear:both;}
 .bio_title {text-align:left;}
@@ -1060,14 +1040,16 @@ transition: all 0.5s;
     text-align: center;}
 .comment_list_container .reply{ float: right;}
 .comment_list_container .comment_text{margin-left: 10%;}
-.author_lebel{  display: block;
-  position: absolute;
-  bottom: 5px;
-  left: 10px;
-  font-size: 12px;
-  font-weight: bold;}
+.author_lebel{  
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 48px;
+    font-size: 12px;
+    font-weight: bold;
+  }
 .comment_date{}
-.author-comment{border: 2px solid #ccc;}
+.author-comment{}
 .no-comments{font-weight: bold;margin: 15px 0;text-align: center;}
 #respond{margin-top:40px;}
 #respond .comment-form-author input,#respond .comment-form-email input,#respond .comment-form-url input{padding: 10px;width: 60%;border: 1px solid #ddd;}
@@ -1113,9 +1095,7 @@ transition: all 0.5s;
   .service_nav li{width: 31%;}
   .service_nav li > h2 {font-size: 16px;}
   .single_footer_top > h2 {font-size: 22px;}
-  .form_container {padding: 20px 100px;}
-  #imgbanner {margin-top: 67px;padding: 100px 0;width: 100%;}
-  #imgbanner h2 {line-height: 72px;font-size: 55px;}  
+  .form_container {padding: 20px 100px;} 
   .archiveblog_right > h2 {font-size: 20px;}
   #banner {margin-top: 67px;}
   .slider_caption > h2 {font-size: 37px;}
@@ -1137,8 +1117,7 @@ transition: all 0.5s;
    .service_nav li {width: 100%;min-height: auto;margin-bottom: 15px;}
    .form_container {padding: 20px 50px;}
    .client_title > h2 {line-height: 35px;}
-   #imgbanner h2 {font-size: 40px;line-height: 40px;}
-   #imgbanner{height: 250px;margin-top: 61px;}
+   #imgbanner{margin-top: 60px;}
    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     border-radius: 0px;  
   }
@@ -1154,7 +1133,7 @@ transition: all 0.5s;
   .archiveblog_right {float: left;margin-left: 10px;width: 70%;}
   .post_navigation {margin-bottom: 30px;}
   #sliderSection {margin-top: 61px;}
-  #banner {margin-top: 61px;}
+  #banner {margin-top: 60px;}
   .single_featured_blog {margin-bottom: 30px;}
   .social_nav li a {margin-right: 8px;}
   .pfeatured_nav li {font-size: 15px;padding: 10px 0;}
@@ -1178,8 +1157,6 @@ transition: all 0.5s;
   .service_title > h2 {font-size: 30px;padding: 0px;}
   .service_title > p {font-size: 18px;}
   .form_container {padding: 20px 0px;}
-  #imgbanner h2 {font-size: 30px;line-height: 35px;}
-  #imgbanner {height: 200px;padding: 70px 0px;}
   .contact_right{padding-left: 0px;}
   .previous_nav{padding: 10px;}
   .next_nav{padding: 10px;}
@@ -1198,7 +1175,6 @@ transition: all 0.5s;
 @media(max-width:360px ){
  .client_title > h2 {font-size: 20px;}
  .client_img {left: 35%;}
- #imgbanner h2 {font-size: 22px;line-height: 35px;}
  .support_btn {margin-top: 30px;}
  .expand_icon {height: 36px;position: absolute;right: 0;top: 1px;}
  .imgedit_heading .panel-title{ position: relative;}

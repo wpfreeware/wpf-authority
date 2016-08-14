@@ -1,3 +1,10 @@
+<?php
+/*
+ *	This file contains theme customizer settings.
+ *	
+ *	@since wpf authority 1.0
+ */
+?>
 <?php 
 
 function wpf_authority_customizer_register( $wp_customize ) {
@@ -36,33 +43,9 @@ $wp_customize->add_setting( 'wpf_authority_logo_uploader' , array(
 
 $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'wpf_authority_logo_uploader', array(
 	'label'        => __( 'Upload Your Logo. Best size: Height: 66px', 'wpf-authority' ),
+	'description'   => __( 'This option is deprecated Since WP 4.5. WpF Authority includes native logo support. Please upload your logo from Site Identity section', 'wpf-authority' ),
 	'section'    => 'wpf_authority_logo_favicon_section',
 	'settings'   => 'wpf_authority_logo_uploader',
-) ) );
-
-
-///////////////////////////
-// Banner section 
-////////////////////////
-
-$wp_customize->add_section( 'wpf_authority_banner_section' , array(
-    'title'      => __( 'Banner Title', 'wpf-authority' ),
-	'panel' => 'wpf_authority_theme_option',
-) );
-
-
-// Banner Title
-
-$wp_customize->add_setting( 'wpf_authority_banner_title' , array(
-	'default'     => '',
-	'transport' => 'postMessage',
-	'sanitize_callback' => 'sanitize_text_field',
-) );
-
-$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'wpf_authority_banner_title', array(
-	'label'        => __( 'Put Banner Title.', 'wpf-authority' ),
-	'section'    => 'wpf_authority_banner_section',
-	'settings'   => 'wpf_authority_banner_title',
 ) ) );
 
 
@@ -181,9 +164,10 @@ $wp_customize->add_setting( 'wpf_authority_footer_text' , array(
 
 
 $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'wpf_authority_footer_text', array(
-	'label'        => __( 'Put your footer text here.', 'wpf-authority' ),
-	'section'    => 'wpf_authority_footer_section',
-	'settings'   => 'wpf_authority_footer_text',
+	'label'        	=> __( 'Put your footer text here.', 'wpf-authority' ),
+	'description'   => __( 'You have to put footer text in order to display this section including social links.', 'wpf-authority' ),
+	'section'    	=> 'wpf_authority_footer_section',
+	'settings'   	=> 'wpf_authority_footer_text',
 ) ) );
 
 
@@ -290,6 +274,7 @@ function wpf_authority_sanitize_choices( $input, $setting ) {
 function wpf_authority_customize_css()
 {	
 	
+/*
 	if( get_header_image() ):
     ?>
          <style type="text/css">
@@ -297,6 +282,7 @@ function wpf_authority_customize_css()
          </style>
     <?php
 	endif;
+*/
 	
 	//theme color scheme
 	$theme_color = '<style type="text/css">
@@ -408,7 +394,6 @@ function wpf_authority_customize_css()
   background-color: '.esc_html( get_theme_mod('wpf_authority_theme_color', '#ca3643') ).';
 }
 .single_sidebar > h2 {
-  border-bottom: 2px dashed '.esc_html( get_theme_mod('wpf_authority_theme_color', '#ca3643') ).';
   color: '.esc_html( get_theme_mod('wpf_authority_theme_color', '#ca3643') ).';
 }
 .single_sidebar ul li a:hover{
@@ -509,7 +494,3 @@ function wpf_authority_customizer_live_preview() {
 
 } 
 add_action( 'customize_preview_init', 'wpf_authority_customizer_live_preview' );
-
-
-
-?>

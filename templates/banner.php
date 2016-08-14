@@ -2,8 +2,10 @@
   
 <?php  if( get_header_image() ) : ?>
 
-  <section id="imgbanner">  
-    <h2> <?php echo esc_html( get_theme_mod( 'wpf_authority_banner_title') );?> </h2>
+  <section id="imgbanner">
+	      
+  	<img src="<?php echo esc_url( get_header_image() ); ?>" alt="<?php esc_attr( bloginfo( 'description' ) ) ; ?>" />
+   
   </section>		
 	
 <?php endif; ?>  
