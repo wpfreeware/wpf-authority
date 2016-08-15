@@ -642,7 +642,6 @@ transition: all 0.5s;
   float: left;
   display: inline;
   width: 100%;
-  min-height: 300px;
   
 }
 .single_archiveblog {
