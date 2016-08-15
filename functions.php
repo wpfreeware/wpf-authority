@@ -8,9 +8,9 @@
 include_once( 'inc/enqueue.php' );
 
 
-////////////////////////
-// customizer 
-////////////////////////
+/////////////////////////////
+// load customizer settings
+////////////////////////////
 
 include_once( 'inc/customizer.php' );
 
@@ -201,7 +201,7 @@ add_action( 'widgets_init', 'wpf_authority_widgets_init' );
  
 function wpf_authority_footer_credit() {
   global $wpf_authority_footer_credit;
-  printf( esc_html__( 'Powered by %1$s | Theme by %2$s', 'wpf-authority' ) , '<a href="http://wordpress.org/" target="_blank">WordPress</a>', '<a href="http://www.wpfreeware.com/" target="_blank">WpFreeware</a>');
+  printf( esc_html__( 'Powered by %1$s | Theme by %2$s', 'wpf-authority' ) , '<a href="http://wordpress.org/" target="_blank">WordPress</a>', '<a href="https://www.wpfreeware.com/" target="_blank">WpFreeware</a>');
 }
 
 
