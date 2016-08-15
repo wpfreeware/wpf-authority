@@ -43,7 +43,7 @@ add_action( 'wp_head', 'wpf_authority_push_bottom_header_area' );
  * @since WpF Authority 1.0
  */
 if ( ! isset( $content_width ) ) {
-	$content_width = 540;
+	$content_width = 1170;
 }
 
 
