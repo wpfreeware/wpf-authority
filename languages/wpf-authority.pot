@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wpf-authority\n"
-"POT-Creation-Date: 2016-08-11 21:39+0600\n"
-"PO-Revision-Date: 2016-08-11 21:40+0600\n"
+"POT-Creation-Date: 2016-08-15 13:28+0600\n"
+"PO-Revision-Date: 2016-08-15 13:30+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: 404.php:24
@@ -98,6 +98,11 @@ msgstr ""
 
 #: functions.php:187
 msgid "Add widgets here to appear in your footer area"
+msgstr ""
+
+#: functions.php:204
+#, php-format
+msgid "Powered by %1$s | Theme by %2$s"
 msgstr ""
 
 #: header.php:26
