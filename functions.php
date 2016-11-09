@@ -125,9 +125,8 @@ function wpf_authority_setup() {
 	 * See: https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 590, 350, true ); // default size
-	add_image_size( 'wpf-authority-post-image', 590, 200, true ); // post-thumb
-	add_image_size( 'wpf-authority-related-post-image', 102, 71, true ); // related post-thumb
+	set_post_thumbnail_size( 590, 350 ); // default size
+	add_image_size( 'wpf-authority-related-post-image', 102, 71 ); // related post-thumb
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments

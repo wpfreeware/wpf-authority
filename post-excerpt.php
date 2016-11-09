@@ -22,7 +22,7 @@
 					<?php
 					// if post has featured image to display
 					if ( has_post_thumbnail() ) :
-						the_post_thumbnail('wpf-authority-post-image', array('alt' => esc_attr( get_the_title() )));
+						the_post_thumbnail( 'post-thumbnail', array( 'alt' => esc_attr( get_the_title() ) ) );
 						
 					endif;
 					
