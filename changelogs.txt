@@ -1,4 +1,4 @@
-# 1.3.1
+# 1.3.1 ( 25 Nov 2016)
 
 * changed screen-reader-text hide to show & pushed them to out of the screen.
 * removed border-bottom for sidebar titles.
