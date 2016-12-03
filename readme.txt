@@ -51,10 +51,11 @@ You can change easily all these settings from live customizer theme option panel
 
 
 == Screenshot Image ==
-Images used in screenshot.png were picked from [pixabay](https://www.pixabay.com) , [licensed under CC0] ( https://creativecommons.org/choose/zero/ )
+Images used in screenshot.png were picked from pixabay, licensed under CC0.
  
-* https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
-* https://pixabay.com/en/monks-path-sunset-landscape-1077839/
+Image 1: https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
+Image 2: https://pixabay.com/en/monks-path-sunset-landscape-1077839/
+License: https://creativecommons.org/choose/zero/
 
 
 == Fonts: ==

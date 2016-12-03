@@ -1,6 +1,6 @@
 # About Theme
 
-Contributors: WpFreeware
+Contributors: wpfreeware
 
 Contributors URI: http://www.wpfreeware.com/wpf-authority-free-Responsive-wordpress-blogging-theme
 
@@ -8,7 +8,7 @@ Tags: full-width-template, sticky-post, custom-background, custom-header, custom
 
 Requires at least: 4.1
 
-Tested up to: 4.4
+Tested up to: 4.6.1
 
 License: GPLv3 or later
 
@@ -59,12 +59,12 @@ You can change easily all these settings from live customizer theme option panel
 
 #Screenshot Image
 
-The screenshot.png created by author & licensed it to [GPL v3 or later] (http://www.gnu.org/licenses/gpl-3.0.html).
 Images used in screenshot.png were picked from [pixabay](https://www.pixabay.com) , [licensed under CC0] ( https://creativecommons.org/choose/zero/ )
 
 #### sources: 
 * https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
 * https://pixabay.com/en/monks-path-sunset-landscape-1077839/
+* [licensed CC0] ( https://creativecommons.org/choose/zero/ )
 
 # Resource License
 
