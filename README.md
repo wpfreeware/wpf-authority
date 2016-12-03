@@ -59,11 +59,11 @@ You can change easily all these settings from live customizer theme option panel
 
 #Screenshot Image
 
-Images used in screenshot.png were picked from [pixabay](https://www.pixabay.com) , [licensed under CC0] ( https://creativecommons.org/choose/zero/ )
+Images used in screenshot.png were picked from [pexels](https://www.pexels.com) , [licensed under CC0] ( https://creativecommons.org/choose/zero/ )
 
 #### sources: 
-* https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
-* https://pixabay.com/en/monks-path-sunset-landscape-1077839/
+* https://www.pexels.com/photo/person-woman-hand-space-4322/
+* https://www.pexels.com/photo/beautiful-christmas-lights-lights-person-242129/
 * [licensed CC0] ( https://creativecommons.org/choose/zero/ )
 
 # Resource License

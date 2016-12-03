@@ -51,10 +51,10 @@ You can change easily all these settings from live customizer theme option panel
 
 
 == Screenshot Image ==
-Images used in screenshot.png were picked from pixabay, licensed under CC0.
+Images used in screenshot.png were picked from pexels, licensed under CC0.
  
-Image 1: https://pixabay.com/en/smartphone-iphone-iphone-6-1031273/
-Image 2: https://pixabay.com/en/monks-path-sunset-landscape-1077839/
+Image 1: https://www.pexels.com/photo/person-woman-hand-space-4322/
+Image 2: https://www.pexels.com/photo/beautiful-christmas-lights-lights-person-242129/
 License: https://creativecommons.org/choose/zero/
 
 

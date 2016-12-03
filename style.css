@@ -620,8 +620,11 @@ transition: all 0.5s;
 	display: inline;
 	float: left;
 	margin-top: 74px;
+	width: 100%;
 }
-
+#imgBanner img{
+	width: 100%;
+}
 #blogArchive{
   float: left;
   display: inline;
